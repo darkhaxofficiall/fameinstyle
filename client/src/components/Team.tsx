@@ -2,10 +2,10 @@ import { Linkedin, Twitter, Instagram, Youtube } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Michael Chen",
-    role: "Creative Director",
+    name: "Pratik Soni",
+    role: "Founder",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
-    description: "15+ years crafting award-winning campaigns for Fortune 500 companies. Expert in brand storytelling and visual identity.",
+    description: "Visionary leader driving creative excellence and innovation in digital marketing. Building the future of brand storytelling.",
     social: [
       { icon: Linkedin, href: "#" },
       { icon: Twitter, href: "#" },
@@ -13,24 +13,46 @@ const teamMembers = [
     ]
   },
   {
-    name: "Sarah Johnson",
-    role: "Strategy Director",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
-    description: "Digital marketing strategist with proven track record of generating 500%+ ROI across multiple industries and platforms.",
-    social: [
-      { icon: Linkedin, href: "#" },
-      { icon: Twitter, href: "#" },
-      { icon: Instagram, href: "#" }
-    ]
-  },
-  {
-    name: "David Rodriguez",
-    role: "Video Production Lead",
+    name: "Abhinav Joshi",
+    role: "Co-founder",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
-    description: "Emmy-nominated director specializing in cinematic brand content and corporate documentaries with global reach.",
+    description: "Strategic mastermind behind our growth and client success initiatives. Expert in scaling creative operations.",
     social: [
       { icon: Linkedin, href: "#" },
-      { icon: Youtube, href: "#" },
+      { icon: Twitter, href: "#" },
+      { icon: Instagram, href: "#" }
+    ]
+  },
+  {
+    name: "Sneha",
+    role: "Co-founder",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+    description: "Creative force specializing in brand development and digital transformation. Turning visions into viral content.",
+    social: [
+      { icon: Linkedin, href: "#" },
+      { icon: Twitter, href: "#" },
+      { icon: Instagram, href: "#" }
+    ]
+  },
+  {
+    name: "Rishi",
+    role: "Director",
+    image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+    description: "Operations expert ensuring seamless project delivery and team coordination. Master of efficiency and excellence.",
+    social: [
+      { icon: Linkedin, href: "#" },
+      { icon: Twitter, href: "#" },
+      { icon: Instagram, href: "#" }
+    ]
+  },
+  {
+    name: "Mahi Patil",
+    role: "Creative Director & Brand Executive",
+    image: "https://images.unsplash.com/photo-1494790108755-2616c4e6cdce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+    description: "Award-winning creative director with expertise in brand strategy and visual storytelling. Creating memorable experiences.",
+    social: [
+      { icon: Linkedin, href: "#" },
+      { icon: Twitter, href: "#" },
       { icon: Instagram, href: "#" }
     ]
   }

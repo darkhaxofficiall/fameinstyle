@@ -20,14 +20,14 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden hero-bg">
       <Scene3D />
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-        <h1 className="text-5xl md:text-7xl font-montserrat font-bold mb-6 leading-tight">
-          Elevate Your Brand with 
-          <span className="text-gradient"> Premium Creative</span>
+        <h1 className="text-5xl md:text-7xl font-montserrat font-bold mb-6 leading-tight animate-slide-in-left">
+          Transform Your Brand with 
+          <span className="text-gradient animate-pulse-glow"> Fame & Style</span>
         </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light">
-          Professional video production and digital marketing solutions that drive results and build lasting brand recognition
+        <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light animate-slide-in-right">
+          Premium social media marketing, viral reels editing, and stunning UI/UX design that elevates your digital presence
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-bounce-in">
           <button 
             onClick={scrollToServices}
             className="bg-gold text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gold-light transition-all duration-200 animate-glow"

@@ -12,6 +12,7 @@ import { apiRequest } from "@/lib/queryClient";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Scene3D from "@/components/Scene3D";
+import Corner3D from "@/components/Corner3D";
 
 interface ContactFormData {
   firstName: string;
@@ -135,6 +136,10 @@ export default function Contact() {
 
   return (
     <div className="bg-black text-white font-inter min-h-screen relative overflow-hidden">
+      <Corner3D position="top-left" size="large" />
+      <Corner3D position="top-right" size="medium" />
+      <Corner3D position="bottom-left" size="medium" />
+      <Corner3D position="bottom-right" size="large" />
       <Scene3D />
       <Navigation />
       

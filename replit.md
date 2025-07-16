@@ -31,13 +31,16 @@ The application follows a monorepo structure with clear separation between clien
 - **Build Tool**: Vite with custom configuration for development and production
 
 ### Recent Updates (January 2025)
-- **Multi-page Architecture**: Added dedicated Portfolio and Contact pages with full routing
-- **Enhanced 3D Elements**: Upgraded Scene3D component with multiple geometries, particle systems, and mouse interaction
-- **Corner 3D Elements**: Added Corner3D components for immersive 3D elements in every corner
+- **AI Chatbot Integration**: Implemented OpenAI-powered chatbot for client queries, FAQs, portfolio showcase, and deal-making assistance
+- **Creative Loading Animation**: Added stunning 3D loading screen with logo integration and particle effects
+- **Enhanced 3D Animations**: Added Corner3D components on all pages with multiple animation types (float, fade-in, slide-in, bounce-in, pulse-glow)
+- **Team Members Update**: Updated team with real members - Pratik Soni (Founder), Abhinav Joshi (Co-founder), Sneha (Co-founder), Rishi (Director), Mahi Patil (Creative Director & Brand Executive)
+- **Contact Information Update**: Updated to Amravati Maharashtra location, +91 82799 44814 phone, fameinstyleofficial@gmail.com email
+- **Logo Integration**: Added Fame & Style logo throughout the website including navigation and loading screen
+- **Service Focus Refinement**: Prioritized social media marketing, reels editing, and website UI/UX design
+- **Multi-page Architecture**: Dedicated Portfolio and Contact pages with full routing and enhanced 3D elements
 - **Advanced Contact Form**: Comprehensive contact form with budget ranges, timeline options, and preferred contact methods
-- **Service Focus Update**: Updated services to emphasize social media marketing, reels editing, and website UI/UX
-- **Smooth Animations**: Enhanced CSS animations with slide-in, fade-in, and scale effects
-- **Portfolio Categories**: Categorized portfolio with filtering functionality
+- **Enhanced Animations**: Added slide-in-left, slide-in-right, bounce-in, pulse-glow, and scale-in animations throughout
 
 ### Backend Architecture
 - **Server**: Express.js with TypeScript

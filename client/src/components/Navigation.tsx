@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "wouter";
+import logoPath from "@assets/ChatGPT Image May 28, 2025, 01_33_21 AM_1752661190416.png";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,10 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="text-2xl font-montserrat font-bold text-gradient">Fame & Style</div>
+            <div className="flex items-center space-x-3">
+              <img src={logoPath} alt="Fame & Style Logo" className="w-8 h-8" />
+              <span className="text-2xl font-montserrat font-bold text-gradient">Fame & Style</span>
+            </div>
           </div>
           
           <div className="hidden md:block">

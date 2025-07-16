@@ -189,7 +189,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-gray-300">+1 (555) 123-4567</p>
+                    <p className="text-gray-300">+91 82799 44814</p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -198,7 +198,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-gray-300">hello@fameandstyle.com</p>
+                    <p className="text-gray-300">fameinstyleofficial@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -207,7 +207,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold">Office</p>
-                    <p className="text-gray-300">123 Creative Avenue<br />New York, NY 10001</p>
+                    <p className="text-gray-300">Amravati, Maharashtra<br />India</p>
                   </div>
                 </div>
               </div>
