@@ -147,10 +147,12 @@ export default function Contact() {
                     <SelectValue placeholder="Select a service" />
                   </SelectTrigger>
                   <SelectContent>
+                    <SelectItem value="social-media-marketing">Social Media Marketing</SelectItem>
+                    <SelectItem value="reels-editing">Reels Editing</SelectItem>
+                    <SelectItem value="website-ui-ux">Website UI/UX</SelectItem>
+                    <SelectItem value="brand-design">Brand Design</SelectItem>
                     <SelectItem value="video-production">Video Production</SelectItem>
                     <SelectItem value="digital-marketing">Digital Marketing</SelectItem>
-                    <SelectItem value="brand-design">Brand Design</SelectItem>
-                    <SelectItem value="photography">Photography</SelectItem>
                     <SelectItem value="full-campaign">Full Campaign</SelectItem>
                   </SelectContent>
                 </Select>

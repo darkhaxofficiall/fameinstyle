@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application for "Fame & Style," a premium creative agency specializing in video production, digital marketing, and brand design. The application features a modern, visually striking landing page with 3D animations, comprehensive service showcases, and a contact form system.
+This is a full-stack web application for "Fame & Style," a premium creative agency specializing in social media marketing, reels editing, and website UI/UX design. The application features a modern, visually striking multi-page website with enhanced 3D animations, comprehensive service showcases, dedicated portfolio page, and advanced contact form system.
 
 ## User Preferences
 
@@ -23,11 +23,21 @@ The application follows a monorepo structure with clear separation between clien
 
 ### Frontend Architecture
 - **Framework**: React 18 with TypeScript
-- **Routing**: Wouter for lightweight client-side routing
+- **Routing**: Wouter for lightweight client-side routing with multi-page support
 - **State Management**: TanStack Query for server state management
 - **UI Components**: shadcn/ui component library with Radix UI primitives
 - **Styling**: Tailwind CSS with custom color scheme (gold/black theme)
+- **3D Graphics**: Enhanced Three.js integration with multiple geometric shapes, particle systems, and mouse interaction
 - **Build Tool**: Vite with custom configuration for development and production
+
+### Recent Updates (January 2025)
+- **Multi-page Architecture**: Added dedicated Portfolio and Contact pages with full routing
+- **Enhanced 3D Elements**: Upgraded Scene3D component with multiple geometries, particle systems, and mouse interaction
+- **Corner 3D Elements**: Added Corner3D components for immersive 3D elements in every corner
+- **Advanced Contact Form**: Comprehensive contact form with budget ranges, timeline options, and preferred contact methods
+- **Service Focus Update**: Updated services to emphasize social media marketing, reels editing, and website UI/UX
+- **Smooth Animations**: Enhanced CSS animations with slide-in, fade-in, and scale effects
+- **Portfolio Categories**: Categorized portfolio with filtering functionality
 
 ### Backend Architecture
 - **Server**: Express.js with TypeScript

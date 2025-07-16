@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 const portfolioItems = [
   {
     image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
@@ -72,9 +74,9 @@ export default function Portfolio() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="glass-morphism text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-opacity-20 transition-all duration-200">
+          <Link href="/portfolio" className="inline-block glass-morphism text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-opacity-20 transition-all duration-200 animate-glow">
             View Full Portfolio
-          </button>
+          </Link>
         </div>
       </div>
     </section>

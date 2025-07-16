@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "wouter";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const [location] = useLocation();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -22,36 +24,39 @@ export default function Navigation() {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <button 
-                onClick={() => scrollToSection('services')}
-                className="text-white hover:text-gold transition-colors duration-200 font-medium"
-              >
-                Services
-              </button>
-              <button 
-                onClick={() => scrollToSection('portfolio')}
-                className="text-white hover:text-gold transition-colors duration-200 font-medium"
-              >
+              <Link href="/" className="text-white hover:text-gold transition-colors duration-200 font-medium">
+                Home
+              </Link>
+              {location === '/' ? (
+                <button 
+                  onClick={() => scrollToSection('services')}
+                  className="text-white hover:text-gold transition-colors duration-200 font-medium"
+                >
+                  Services
+                </button>
+              ) : (
+                <Link href="/" className="text-white hover:text-gold transition-colors duration-200 font-medium">
+                  Services
+                </Link>
+              )}
+              <Link href="/portfolio" className="text-white hover:text-gold transition-colors duration-200 font-medium">
                 Portfolio
-              </button>
-              <button 
-                onClick={() => scrollToSection('team')}
-                className="text-white hover:text-gold transition-colors duration-200 font-medium"
-              >
-                Team
-              </button>
-              <button 
-                onClick={() => scrollToSection('testimonials')}
-                className="text-white hover:text-gold transition-colors duration-200 font-medium"
-              >
-                Testimonials
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="bg-gold text-black px-6 py-2 rounded-lg font-semibold hover:bg-gold-light transition-colors duration-200"
-              >
+              </Link>
+              {location === '/' ? (
+                <button 
+                  onClick={() => scrollToSection('team')}
+                  className="text-white hover:text-gold transition-colors duration-200 font-medium"
+                >
+                  Team
+                </button>
+              ) : (
+                <Link href="/" className="text-white hover:text-gold transition-colors duration-200 font-medium">
+                  Team
+                </Link>
+              )}
+              <Link href="/contact" className="bg-gold text-black px-6 py-2 rounded-lg font-semibold hover:bg-gold-light transition-colors duration-200">
                 Contact
-              </button>
+              </Link>
             </div>
           </div>
           
@@ -68,36 +73,39 @@ export default function Navigation() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black bg-opacity-95">
-              <button 
-                onClick={() => scrollToSection('services')}
-                className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2"
-              >
-                Services
-              </button>
-              <button 
-                onClick={() => scrollToSection('portfolio')}
-                className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2"
-              >
+              <Link href="/" className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2">
+                Home
+              </Link>
+              {location === '/' ? (
+                <button 
+                  onClick={() => scrollToSection('services')}
+                  className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2"
+                >
+                  Services
+                </button>
+              ) : (
+                <Link href="/" className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2">
+                  Services
+                </Link>
+              )}
+              <Link href="/portfolio" className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2">
                 Portfolio
-              </button>
-              <button 
-                onClick={() => scrollToSection('team')}
-                className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2"
-              >
-                Team
-              </button>
-              <button 
-                onClick={() => scrollToSection('testimonials')}
-                className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2"
-              >
-                Testimonials
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="block bg-gold text-black px-6 py-2 rounded-lg font-semibold hover:bg-gold-light transition-colors duration-200 mt-4"
-              >
+              </Link>
+              {location === '/' ? (
+                <button 
+                  onClick={() => scrollToSection('team')}
+                  className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2"
+                >
+                  Team
+                </button>
+              ) : (
+                <Link href="/" className="block text-white hover:text-gold transition-colors duration-200 font-medium py-2">
+                  Team
+                </Link>
+              )}
+              <Link href="/contact" className="block bg-gold text-black px-6 py-2 rounded-lg font-semibold hover:bg-gold-light transition-colors duration-200 mt-4">
                 Contact
-              </button>
+              </Link>
             </div>
           </div>
         )}
