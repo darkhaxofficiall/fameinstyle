@@ -7,6 +7,7 @@ This is a full-stack web application for "Fame & Style," a premium creative agen
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design preferences: Premium gold and black theme, 3D animations, minimal and stunning look, professional appearance.
 
 ## System Architecture
 
